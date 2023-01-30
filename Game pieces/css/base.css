@@ -1,0 +1,52 @@
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    background-image: url('D:/Mizgailo Anna/js/Game pieces/img/img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+canvas {
+    background-color: white;
+    display:block;
+    margin: auto auto;
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
+
+aside {
+    display: block;
+    font-weight: bold;
+}
+
+.start-stop-wrapper, .total-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+input[type="text"], label {
+    display: flex;
+    height: 2rem;
+    line-height: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="text"] {
+    width: 4rem;
+}
+
+button {
+    margin: 0 auto;
+    display: block;
+    height: 2rem;
+    width: 10%;
+    padding: 5px;
+    font-weight: bold;
+    align-self: center;
+} 
